@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="19dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#515151">
+
+            <ImageView
+                android:clickable="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <TextView
+                android:clickable="false"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="52dp"
+                android:layout_toEndOf="@+id/imageView2"
+                android:text="TextView"
+                android:textColor="#ffffff"
+                android:inputType="textCapSentences"
+                android:textSize="25dp" />
+
+            <TextView
+                android:clickable="false"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="9dp"
+                android:layout_toEndOf="@+id/imageView2"
+                android:inputType="textCapSentences"
+                android:text="TextView"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

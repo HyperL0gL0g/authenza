@@ -1,0 +1,82 @@
+body {
+    background-size: cover;
+    background-color: #f2c0c000;
+    background-image: url("../images/focus3.png");
+    background-repeat: no-repeat;
+}
+
+ul.info {
+    float: right;
+}
+
+ul.info li {
+    display: inline-block;
+    text-decoration-color: white;
+}
+
+ul.info li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+}
+
+ul.info li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul.info li.active a {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 50px;
+    height: 80px width:230px;
+}
+
+.text {
+    font-size: 100px;
+    margin: 2% 5% 0% 5%;
+    color: #510A0B;
+}
+
+.text1 {
+    font-size: 80px;
+    margin: 0 0 3% 5%;
+    color: #510A0B;
+}
+
+.para {
+    width: 60%;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    color: #090909;
+}
+
+ul.lk {
+    align-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+ul.lk li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+ul.lk li a {
+    font-size: 25px;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    text-decoration: none;
+    color: black;
+    padding: 20px 35px;
+    border: 5px solid black;
+    border-radius: 50px;
+}

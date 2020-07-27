@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/create_api.css">
+    <title>Authenza</title>
+</head>
+
+<body>
+    <div class="nav"></div>
+    <section id="sideMenu">
+        <nav>
+            <a href="./index_dash.html" class="a"><i class="fa fa-home fa1"></i>Home</a>
+            <a href="./index_api.html" class="a"><i class="fa fa-database fa1"></i>Api List</a>
+            <a href="./index_user.html" class="a"><i class="fa fa-user fa1"></i>User List</a>
+        </nav>
+    </section>
+    <h1>Registered Users</h1>
+    <table class="table table-striped" id="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">S.NO</th>
+                <th scope="col">USER-ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">EMAIL</th>
+                <th scope="col">2-FA-STATUS</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="js/config.js"></script>
+    <script src="js/user_list.js">
+    </script>
+</body>
+
+</html>

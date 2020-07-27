@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/landingfinger.css">
+
+    <head>
+        <title>
+            HOME
+        </title>
+    </head>
+
+<body>
+    <div class="right">
+        <img class="logo1" src="images\User.png"><a id='username'>ACCOUNT</a></div>
+    <div class="left">
+        <h1 class="logo">Turity</h1>
+    </div>
+    <div class="text">
+        <h1 class="con">To enable 2 Factor Authentication click the button below</h1>
+    </div>
+    <div class="bn">
+        <button type="button" name="button" id="b1" class="cl1" onclick="user_two_factor_enable()">Enable 2FA</button>
+        <button type="button" name="button" id="b1" class="cl1" onclick="verify_session()">Verify Session</button>
+    </div>
+    <div class="modal">
+        <div class="qform">
+            <div class="close">
+                <button id="cl" class="cl">+</button>
+            </div>
+            <div class="qleft">
+                <h2>To register your fingerprint:</h2>
+                <p>1. Open Authenza on your phone.</p>
+                <p>2. Tap <img src="images/plus.png" class="qplus"> to open the QR scanner.</p>
+                <p>3. Scan the QR code present beside</p>
+            </div>
+            <div class="qright">
+                <div class="qqrcode">
+                    <!-- qrcode instead of image -->
+                    <img class="qbox" id="qrcode" src="images/giphy.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/authenticate.js"></script>
+</body>
+
+</html>
