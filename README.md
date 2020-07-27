@@ -7,10 +7,11 @@
 #  :octocat: About:
 
 **Authenza** is the  name of the platform(web+mobile) which focuses on providing Two - Factor Authentication Services to organisations facing privacy issues and to organisations who want to upgrade from single-layer authorization to multi-layer authorization. 
+**Authenza** is a simplified implementation of an Identity as a Service(IDaaS) product. IDaas or Identity as a service is a SaaS-based IAM offering that allows organizations to manage authentication and access controls to provide secure access to their growing number of software and SaaS applications. **Authenza** implements Bio-metric Multi-Factor Authentication using your regular Android device, making authentication and authorization experience more simpler and easily adaptable.
 
-# Motivation:
+# Motivation: :bulb:
 
-After the  "Internet Boom",  the number of internet users has been increasing exponentially ([look here](https://www.internetlivestats.com/)) , and with that the data stored in the cloud
+After the  "Internet Boom",  the number of internet users has been increasing exponentially ([look here](https://www.internetlivestats.com/)) , and with that the data stored in the cloud :cloud:
 has also been increasing exponentially.In the Modern Age , privacy of the user's data  is of utmost importance.Privacy is one of those fields where there is no scope of any compromise.
 Gone are those days where a single layer of security was enough to ensure proper security .
 Two - Facctor Authentication is the modern and advanced way of ensuring complete privacy of data.With two factor authentication the user is the sole owner of his/her data .
@@ -29,7 +30,7 @@ The second layer could ask for the name of your cat, a secret code sent to your 
 
 Regardless of the nature of the second layer, it serves as a vital barrier to your account.
 
-# Why 2-fa ?
+# Why 2-fa :question:
 
 Passwords have been the mainstream form of authentication since the start of the digital revolution. But, this security measure is far from infallible. Here are some worrying facts about this traditional security measure:
 
@@ -43,7 +44,7 @@ Passwords have been the mainstream form of authentication since the start of the
 
 
 
-**Authenza** is a simplified implementation of an Identity as a Service(IDaaS) product. IDaas or Identity as a service is a SaaS-based IAM offering that allows organizations to manage authentication and access controls to provide secure access to their growing number of software and SaaS applications. **Authenza** implements Bio-metric Multi-Factor Authentication using your regular Android device, making authentication and authorization experience more simpler and easily adaptable.
+
 
 ## :dart: Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -55,7 +56,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## :dart: Getting the project.
 
 ```sh
-$ git clone https://github.com/gdsoumya/authenza.git
+$ git clone https://github.com/logicinfinite/authenza.git
 or 
 Download and extract the Zip-File
 ```
@@ -108,15 +109,15 @@ http://BASE_URL/org
 http://BASE_URL/client
 ```
 A simplified architecture for the setup can be seen below.
-![Authenza Deplotment Diagram](https://github.com/gdsoumya/authenza/blob/master/images/deployment.png?raw=true)
+![Authenza Deplotment Diagram](https://github.com/logicinfinite/authenza/blob/master/images/deployment.png?raw=true)
 ### Points to Remember
 The **Org-Client** UI will not function until correct **API_KEY** and **CLIENT_ID** is supplied, to do this you need to start the server once and register a Org account and create an API Key. You can then stop the previous server and put the details in the **.env** file and restart the server using :
 ```
 $ docker-compose up
 ```
 ## :dart:  Contributors
--   **Soumya Ghosh Dastidar** : Backend
--   **Niraj Singh** : Android
--   **Abhinav Ghosh** : Front-End
+-   **Soumya Ghosh Dastidar**  [Soumya Ghosh Dastidar](https://github.com/gdsoumya) : Backend
+-   **Niraj Singh** [Neeraj Singh](https://github.com/karma9874) : Android
+-   **Abhinav Ghosh** [Abhinava Ghosh](https://github.com/logicinfinite) : Front-End
 -   **Bivas Ranjan Das** : Front-End
 -   **Kaustav Ghosh** : Front-End
