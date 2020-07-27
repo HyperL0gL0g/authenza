@@ -9,6 +9,8 @@
 **Authenza** is the  name of the platform(web+mobile) which focuses on providing Two - Factor Authentication Services to organisations facing privacy issues and to organisations who want to upgrade from single-layer authorization to multi-layer authorization. 
 **Authenza** is a simplified implementation of an Identity as a Service(IDaaS) product. IDaas or Identity as a service is a SaaS-based IAM offering that allows organizations to manage authentication and access controls to provide secure access to their growing number of software and SaaS applications. **Authenza** implements Bio-metric Multi-Factor Authentication using your regular Android device, making authentication and authorization experience more simpler and easily adaptable.
 
+ --- 
+
 # Motivation: :bulb:
 
 After the  "Internet Boom",  the number of internet users has been increasing exponentially ([look here](https://www.internetlivestats.com/)) , and with that the data stored in the cloud :cloud:
@@ -29,6 +31,7 @@ Most 2FA systems are designed to ascertain one of three factors
 The second layer could ask for the name of your cat, a secret code sent to your phone, or a fingerprint scan. Or, it can include combination of more than one or even all three of them. That’s the reason for calling it sometimes multiple factor authentication.
 
 Regardless of the nature of the second layer, it serves as a vital barrier to your account.
+ ---
 
 # Why 2-fa :question:
 
@@ -42,16 +45,17 @@ Passwords have been the mainstream form of authentication since the start of the
 
 
 
-
+---
 
 
 
 ## :dart: Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
+--
 ##  :dart: Prerequisites
 
 **Authenza** requires [ **Docker**](https://docs.docker.com/), [**Android Studio**](https://developer.android.com/studio) and an Android device (with fingerprint scanner) running Android Version 9.0+ .
+---
 
 ## :dart: Getting the project.
 
@@ -60,6 +64,7 @@ $ git clone https://github.com/logicinfinite/authenza.git
 or 
 Download and extract the Zip-File
 ```
+---
 ##  :dart: Setting up the .env file
 Create a **.env** file at the root of the project, it is used by docker to get the required environment variables to start up the different containers. Here is the template for the **.env** file. Replace the values as needed.
 ```
@@ -90,6 +95,7 @@ BASE_URL=http://localhost
 If you are using Gmail as the email service you may have to turn on [**Less Secure Application Access**](https://support.google.com/accounts/answer/6010255?hl=en).<br>
 At first you may put any random value for the **API_KEY** and **CLIENT_ID**, later on after creating an API_KEY from the org dashboard you can change the values and restart docker-compose.
 
+---
 ##  :dart: Setting up the Android APK
 Before you can build the android APK you need to change the base url in the source code, find the java files
 ```
@@ -97,6 +103,9 @@ app/src/main/java/com/example/fingerprint_protection/scannerActivity.java
 app/src/main/java/com/example/fingerprint_protection/fingerPrint_Auth.java
 ```
 And replace **http://localhost** with you own **BASE_URL**. You can then build the apk and run it on your android device (version 9.0+).
+
+---
+
 ## :dart: Starting the Server
 To start the server
 ```sh
@@ -110,11 +119,15 @@ http://BASE_URL/client
 ```
 A simplified architecture for the setup can be seen below.
 ![Authenza Deplotment Diagram](https://github.com/logicinfinite/authenza/blob/master/images/deployment.png?raw=true)
+
+---
 ### Points to Remember
 The **Org-Client** UI will not function until correct **API_KEY** and **CLIENT_ID** is supplied, to do this you need to start the server once and register a Org account and create an API Key. You can then stop the previous server and put the details in the **.env** file and restart the server using :
 ```
 $ docker-compose up
 ```
+---
+
 ## :dart:  Contributors
 -   **Soumya Ghosh Dastidar** :point_right:  [Soumya Ghosh Dastidar](https://github.com/gdsoumya) : Backend
 -   **Niraj Singh**  :point_right: [Neeraj Singh](https://github.com/karma9874) : Android
