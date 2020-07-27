@@ -116,8 +116,8 @@ The **Org-Client** UI will not function until correct **API_KEY** and **CLIENT_I
 $ docker-compose up
 ```
 ## :dart:  Contributors
--   **Soumya Ghosh Dastidar**  [Soumya Ghosh Dastidar](https://github.com/gdsoumya) : Backend
--   **Niraj Singh** [Neeraj Singh](https://github.com/karma9874) : Android
--   **Abhinav Ghosh** [Abhinava Ghosh](https://github.com/logicinfinite) : Front-End
+-   **Soumya Ghosh Dastidar** :point_right:  [Soumya Ghosh Dastidar](https://github.com/gdsoumya) : Backend
+-   **Niraj Singh**  :point_right: [Neeraj Singh](https://github.com/karma9874) : Android
+-   **Abhinav Ghosh**  :point_right: [Abhinava Ghosh](https://github.com/logicinfinite) : Front-End
 -   **Bivas Ranjan Das** : Front-End
 -   **Kaustav Ghosh** : Front-End
