@@ -139,7 +139,7 @@ $ docker-compose up
 -   **Soumya Ghosh Dastidar** :point_right:  [Soumya Ghosh Dastidar](https://github.com/gdsoumya) : Backend
 -   **Niraj Singh**  :point_right: [Neeraj Singh](https://github.com/karma9874) : Android
 -   **Abhinav Ghosh**  :point_right: [Abhinava Ghosh](https://github.com/logicinfinite) : Front-End
--   **Bivas Ranjan Das** : Front-End
+-   **Bivas Ranjan Das** :point_right: [Bivas Das](https://github.com/bivasrdas): Front-End
 -   **Kaustav Ghosh** : Front-End
 
   ---
