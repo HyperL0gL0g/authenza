@@ -4,7 +4,7 @@ Flask-Bcrypt==0.7.1
 Flask-Cors==3.0.8
 Flask-Mail==0.9.1
 psycopg2==2.8.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 pypng==0.0.20
 PyQRCode==1.2.1
 uuid==1.30
